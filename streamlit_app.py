@@ -4,13 +4,11 @@ import streamlit as st
 import pickle
 
 # Set the page configuration
-st.set_page_config(page_title="Model Comparison", page_icon="🔄")
-st.title("🔄 Model Comparison App")
+st.set_page_config(page_title="Cervical Mielopathy Outcome Prediction", page_icon="🔄")
+st.title("🔄 Cervical Mielopathy Outcome Prediction")
 st.write(
     """
-    This app allows you to manually input variables for each feature, process them through three different models 
-    (loaded from `.pkl` files), and compare the outputs. Each model applies a different pipeline and outputs the 
-    probability of class 1.
+
     """
 )
 
@@ -20,23 +18,19 @@ def load_model(file_path):
     with open(file_path, "rb") as file:
         return pickle.load(file)
 
-model_1 = load_model("model_1.pkl")
-model_2 = load_model("model_2.pkl")
-model_3 = load_model("model_3.pkl")
+model_1 = load_model("Neck_VAS_model.pkl")
+model_2 = load_model("mJOA_model.pkl")
+model_3 = load_model("Arm_VAS_model.pkl")
 
 # Collect inputs for all required features
 st.subheader("Input Variables")
 
 categorical_features = [
-    'ASA score', 'BMI', 'Preoperative Grade of Myelopathy (mJOA)',
-    'Levels of cervical pathology', 'Levels of radiological myelopathy',
-    'Extent of Compression', 'Sex', 'Type of approach', 'Smoke (Yes/no)',
-    'Previous Cervical Surgery', 'Predominance of Site of Compression',
-    'Cervical Alignment', 'Type of Compression'
+    
 ]
 
 numerical_features = [
-    'Age', 'Symptoms Duration', 'Neck VAS', 'Arm VAS', 'NDI', 'Charlson'
+    
 ]
 
 # Create widgets for each feature
