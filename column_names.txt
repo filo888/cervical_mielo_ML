@@ -1,3 +1,5 @@
+Column names list: 
+
 ASA score
 BMI
 Preoperative Grade of Myelopathy (mJOA)
@@ -17,3 +19,6 @@ Neck VAS
 Arm VAS
 NDI
 Charlson
+
+
+
