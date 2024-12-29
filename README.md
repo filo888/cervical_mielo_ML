@@ -110,7 +110,7 @@ model = load_model('Neck_VAS_model')
 ### 3. Prepare Input Data
 Create a DataFrame with the required features. 
 
-Ensure that the column names match exactly (case and space sesnitive) the column names in column_names.txt (a raw model input example with a few features is shown below):
+Ensure that the column names match exactly (case and space sesnitive) the column names in `column_names.txt` (a raw model input example with a few features is shown below):
 
 
 ```python
