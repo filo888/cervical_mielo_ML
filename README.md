@@ -108,7 +108,7 @@ model = load_model('Neck_VAS_model')
 ```
 
 ### 3. Prepare Input Data
-Create a DataFrame with the required features. Ensure that the column names match the feature names listed above (a raw input example is shown below):
+Create a DataFrame with the required features. Ensure that the column names match exactly the feature names in the file "column_names.txt" listed above (a raw input example is shown below):
 ```python
 data = pd.DataFrame({
     'Neck VAS': [7],
