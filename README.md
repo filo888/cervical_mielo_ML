@@ -39,7 +39,7 @@ The following features are included in the models:
    - Symptoms Duration (days) 
    - Neck VAS
    - Arm VAS
-   - NDI (Neck Disability Index)
+   - NDI (Neck Disability Index) ###
    - Charlson Index
 
 ---
@@ -108,15 +108,17 @@ model = load_model('Neck_VAS_model')
 ```
 
 ### 3. Prepare Input Data
-Create a DataFrame with the required features. Ensure that the column names match exactly the feature names in the file "column_names.txt" listed above (a raw input example is shown below):
+Create a DataFrame with the required features. 
+
+Ensure that the column names match exactly (case and space sesnitive) the column names in column_names.txt (a raw model input example with a few features is shown below):
+
+
 ```python
 data = pd.DataFrame({
     'Neck VAS': [7],
     'Arm VAS': [6],
-    'Symptoms Duration': [30],
     'Age': [45],
     'BMI': [1.0],
-    'Smoking Status': ['Yes'],
     'Type of Approach': [1.0],
     'Extent of Compression': [3],
     'Cervical Alignment': [1.0],
