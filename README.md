@@ -14,24 +14,26 @@ The models were trained using PyCaret Library (Version 3.3.2) to predict improve
 
 ## Features Used by the Models
 The following features are included in the models:
-**NB: Please refer to "Variables Encoding" to see how each feature is encoded**
+
+**Features with "###" are encoded using a specific convention**
+**NB: Please refer to "Variables Encoding" to see how each # feature is encoded**
 
    **Features List**
    - ASA Score
-   - BMI (Body Mass Index) 
+   - BMI (Body Mass Index) ###
    - Preoperative Grade of Myelopathy (mJOA)
-   - Levels of Cervical Pathology
-   - Levels of Radiological Myelopathy
-   - Extent of Compression
-   - Sex
-   - Type of Approach 
-   - Smoking Status (1==yes/0==no)
-   - Previous Cervical Surgery
-   - Predominance of Site of Compression
-   - Cervical Alignment
-   - Type of Compression
+   - Levels of Cervical Pathology ###
+   - Levels of Radiological Myelopathy ###
+   - Extent of Compression ###
+   - Sex ###
+   - Type of Approach ###
+   - Smoking Status ###
+   - Previous Cervical Surgery ###
+   - Predominance of Site of Compression ###
+   - Cervical Alignment ###
+   - Type of Compression ###
    - Age
-   - Symptoms Duration
+   - Symptoms Duration (days) 
    - Neck VAS
    - Arm VAS
    - NDI (Neck Disability Index)
