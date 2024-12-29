@@ -14,7 +14,7 @@ The models were trained using PyCaret Library (Version 3.3.2) to predict improve
 
 ## Features Used by the Models
 The following features are included in the models:
-**NB: Please refer to "Supplemental Material 1" to see how each feature is encoded**
+**NB: Please refer to "Variables Encoding" to see how each feature is encoded**
 
    **Features List**
    - ASA Score
@@ -41,7 +41,7 @@ The following features are included in the models:
 
 ## Model Performance
 Key performance highlights:
-NB-> each model is a tuned RF Classifier with a custom classification threshold 
+each model is a tuned RF Classifier with a custom classification threshold 
 
 1. **Neck VAS Model**
    - Top Features: Neck VAS, Arm VAS, NDI
