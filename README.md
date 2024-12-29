@@ -15,8 +15,8 @@ The models were trained using PyCaret Library (Version 3.3.2) to predict improve
 ## Features Used by the Models
 The following features are included in the models:
 
-**Features with "###" are encoded using a specific convention**
-**NB: Please refer to "Variables Encoding" to see how each # feature is encoded**
+**Features with "###" are encoded using our specific convention**
+**NB: Please refer to "Variables Encoding" to see how each # feature is encoded for model use**
 
    **Features List**
    - ASA Score
