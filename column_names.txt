@@ -1,0 +1,19 @@
+ASA score
+BMI
+Preoperative Grade of Myelopathy (mJOA)
+Levels of  cervical pathology
+Levels of radiological myelopathy
+Extent of Compression
+Sex
+Type of approach
+Smoke (Yes/no)
+Previous Cervical Surgery
+Predominance of Site of Compression
+Cervical Alignment
+Type of Compression
+Age
+ Symptoms Duration
+Neck VAS
+Arm VAS
+NDI
+Charlson
