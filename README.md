@@ -6,6 +6,8 @@ This repository contains three pre-trained machine learning models for analyzing
 - **Neck VAS (Visual Analog Scale)**
 - **Arm VAS (Visual Analog Scale)**
 - **mJOA Score**
+
+
 The models were trained using PyCaret Library (Version 3.3.2) to predict improvement (Class 1) or no improvement (Class 0) in the corresponding target using a diverse set of clinical and demographic features. They are designed for researchers and clinicians as a starting point for a possible future multi-center study with external validation.
 
 ---
