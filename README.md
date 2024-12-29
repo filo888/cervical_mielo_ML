@@ -59,9 +59,9 @@ NB-> each model is a tuned RF Classifier with a custom classification threshold
 
 ## Repository Contents
 - **Models:**
-  - `neck_vas_model.pkl`
-  - `arm_vas_model.pkl`
-  - `mjoa_model.pkl`
+  - `Neck_VAS_model.pkl`
+  - `Arm_VAS_model.pkl`
+  - `mJOA_model.pkl`
 
 - **Utility Files:**
   - `requirements.txt`: Lists all necessary Python packages.
@@ -99,7 +99,7 @@ import pandas as pd
 Choose the model you want to use (e.g., Neck VAS):
 ```python
 # Load the model
-model = load_model('neck_vas_model')
+model = load_model('Neck_VAS_model')
 ```
 
 ### 3. Prepare Input Data
