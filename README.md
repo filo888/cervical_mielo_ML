@@ -153,5 +153,4 @@ Filippo Colella
 ## License
 This repository is licensed. See `LICENSE` for details.
 
-
-   ```
+```
